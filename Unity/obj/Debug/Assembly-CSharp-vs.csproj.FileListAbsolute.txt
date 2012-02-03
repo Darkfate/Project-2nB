@@ -1,0 +1,8 @@
+D:\Sandbox\Unity\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Sandbox\Unity\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Sandbox\Unity\Temp\bin\Debug\UnityEditor.dll
+D:\Sandbox\Unity\Temp\bin\Debug\UnityEngine.dll
+D:\Sandbox\Unity\Temp\bin\Debug\nunit.framework.dll
+D:\Sandbox\Unity\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandbox\Unity\obj\Debug\Assembly-CSharp.dll
+D:\Sandbox\Unity\obj\Debug\Assembly-CSharp.pdb

@@ -1,0 +1,5 @@
+D:\Sandbox\GameCore\GameCore\bin\Debug\GameCore.dll
+D:\Sandbox\GameCore\GameCore\bin\Debug\GameCore.pdb
+D:\Sandbox\GameCore\GameCore\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandbox\GameCore\GameCore\obj\Debug\GameCore.dll
+D:\Sandbox\GameCore\GameCore\obj\Debug\GameCore.pdb
