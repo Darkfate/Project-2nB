@@ -1,0 +1,10 @@
+D:\Sandbox\GameCore\GameCore\bin\Debug\GameCore.dll
+D:\Sandbox\GameCore\GameCore\bin\Debug\GameCore.pdb
+D:\Sandbox\GameCore\GameCore\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandbox\GameCore\GameCore\obj\Debug\GameCore.dll
+D:\Sandbox\GameCore\GameCore\obj\Debug\GameCore.pdb
+D:\Sandbox\Project2nB\Project-2nB\Unity\Assets\GameCore\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandbox\Project2nB\Project-2nB\Unity\Assets\GameCore\obj\Debug\GameCore.dll
+D:\Sandbox\Project2nB\Project-2nB\Unity\Assets\GameCore\obj\Debug\GameCore.pdb
+D:\Sandbox\Project2nB\Project-2nB\Unity\Assets\GameCore\bin\Debug\GameCore.dll
+D:\Sandbox\Project2nB\Project-2nB\Unity\Assets\GameCore\bin\Debug\GameCore.pdb

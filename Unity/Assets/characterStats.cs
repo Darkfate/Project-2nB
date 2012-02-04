@@ -26,7 +26,7 @@ public class characterStats : MonoBehaviour
         }
     }
 
-    private AutomatedStatCore Stats { get; set; }
+    public AutomatedStatCore Stats;
 
     public int Level;
     public int Strength;
