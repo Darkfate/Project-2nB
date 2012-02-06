@@ -45,7 +45,7 @@ namespace GameCore.Actors.Interfaces
         }
 
         public StatSet Stats;
-        protected StatGrowthRate StatGrowthRate;
+        public StatGrowthRate StatGrowthRate;
     }
 
     public class StatSet
@@ -87,10 +87,10 @@ namespace GameCore.Actors.Interfaces
             SpdGrowthRate = spdGrowth;
         }
 
-        public int StrGrowthRate { get; private set; }
+        public int StrGrowthRate { get; set; }
 
-        public int IntGrowthRate { get; private set; }
+        public int IntGrowthRate { get; set; }
 
-        public int SpdGrowthRate { get; private set; }
+        public int SpdGrowthRate { get; set; }
     }
 }

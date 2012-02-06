@@ -62,4 +62,20 @@ namespace GameCore.Data
             }
         }
     }
+
+    public class ClassList
+    {
+        public static IClass[] All
+        {
+            get
+            {
+                return new IClass[]
+                {
+                    new Warrior(),
+                    new Mage(),
+                    new Thief(),
+                };
+            }
+        }
+    }
 }

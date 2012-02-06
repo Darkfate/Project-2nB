@@ -1,5 +1,7 @@
 using System.Collections;
 using GameCore.Actors.Interfaces;
+using GameCore.Data;
+using UnityEditor;
 using UnityEngine;
 
 public class characterStats : MonoBehaviour
@@ -7,7 +9,7 @@ public class characterStats : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
-        Stats = new AutomatedStatCore(new StatSet(), new StatGrowthRate());
+        Status = new AutomatedStatCore(Class.startingStats, Class.growthRate);
     }
 
     // Update is called once per frame
@@ -15,18 +17,18 @@ public class characterStats : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Stats.AddExp(100);
+            Status.AddExp(100);
 
-            Level = Stats.Level;
-            Strength = Stats.Stats.Strength;
-            Intelligence = Stats.Stats.Intelligence;
-            Speed = Stats.Stats.Speed;
-            Exp = Stats.Exp;
-            NextLevel = Stats.NextLevel;
+            Level = Status.Level;
+            Strength = Status.Stats.Strength;
+            Intelligence = Status.Stats.Intelligence;
+            Speed = Status.Stats.Speed;
+            Exp = Status.Exp;
+            NextLevel = Status.NextLevel;
         }
     }
 
-    public AutomatedStatCore Stats;
+    public AutomatedStatCore Status = new AutomatedStatCore(new StatSet(), new StatGrowthRate());
 
     public int Level;
     public int Strength;
@@ -34,4 +36,5 @@ public class characterStats : MonoBehaviour
     public int Speed;
     public int Exp;
     public int NextLevel;
+    public IClass Class = new Warrior();
 }
